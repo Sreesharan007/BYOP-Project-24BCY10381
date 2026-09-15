@@ -57,13 +57,13 @@ cd BYOP-Project-24BCY10381
 ### 3️⃣ Compile the Java Files
 
 ```
-javac src/*.java
+javac *.java
 ```
 
 ### 4️⃣ Run the Application
 
 ```
-java -cp src Main
+java Main
 ```
 
 ---
