@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        ExpenseManager manager = new ExpenseManager();
         Scanner sc = new Scanner(System.in);
+        ExpenseManager manager = new ExpenseManager(sc);
 
         while (true) {
             System.out.println("\n=== Expense Tracker ===");
@@ -13,6 +13,13 @@ public class Main {
             System.out.println("3. Exit");
 
             System.out.print("Enter choice: ");
+
+            if (!sc.hasNextInt()) {
+                System.out.println("Invalid input! Please enter a number (1-3).");
+                sc.nextLine();
+                continue;
+            }
+
             int choice = sc.nextInt();
             sc.nextLine(); // clear buffer
 
@@ -25,9 +32,10 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Exiting... Thank you!");
-                    System.exit(0);
+                    sc.close();
+                    return;
                 default:
-                    System.out.println("Invalid choice!");
+                    System.out.println("Invalid choice! Please select 1, 2, or 3.");
             }
         }
     }
