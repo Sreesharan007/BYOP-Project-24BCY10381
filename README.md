@@ -1,34 +1,34 @@
-# Student Expense Tracker (Java)
+# 💰 Student Expense Tracker (Java)
 
-## Overview
+## 📌 Overview
 
 The **Student Expense Tracker** is a simple Java console application that helps students manage and track their daily expenses. It uses file handling to store data, making it lightweight and easy to run without any database setup.
 
 ---
 
-## Problem Statement
+## 🎯 Problem Statement
 
 Many students struggle to keep track of their daily spending, which can lead to poor financial management. This project provides a simple solution to record and view expenses efficiently.
 
 ---
 
-## Features
+## 🚀 Features
 
-* Add new expenses
-* View all recorded expenses
-* Persistent storage using file handling
-* Simple and user-friendly console interface
+* ➕ Add new expenses
+* 📄 View all recorded expenses
+* 💾 Persistent storage using file handling
+* 🧾 Simple and user-friendly console interface
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * Java
 * File Handling (BufferedReader, FileWriter)
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 Student-Expense-Tracker/
@@ -40,27 +40,27 @@ Student-Expense-Tracker/
 
 ---
 
-## How to Run the Project
+## ▶️ How to Run the Project
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```
 git clone https://github.com/Sreesharan007/BYOP-Project-24BCY10381.git
 ```
 
-### 2. Navigate to Project Folder
+### 2️⃣ Navigate to Project Folder
 
 ```
 cd BYOP-Project-24BCY10381
 ```
 
-### 3. Compile the Java Files
+### 3️⃣ Compile the Java Files
 
 ```
 javac *.java
 ```
 
-### 4. Run the Application
+### 4️⃣ Run the Application
 
 ```
 java Main
@@ -68,7 +68,7 @@ java Main
 
 ---
 
-## Sample Output
+## 📸 Sample Output
 
 ```
 === Expense Tracker ===
@@ -86,7 +86,7 @@ Expense Added Successfully!
 
 ---
 
-## Data Storage
+## 💾 Data Storage
 
 All expenses are stored in:
 
@@ -103,7 +103,7 @@ Bus Ticket,50.0,Travel,2026-03-29
 
 ---
 
-## Concepts Used
+## 🧠 Concepts Used
 
 * Object-Oriented Programming (OOP)
 * Classes and Objects
@@ -112,15 +112,15 @@ Bus Ticket,50.0,Travel,2026-03-29
 
 ---
 
-## Future Enhancements
+## ⚡ Future Enhancements
 
-* Search expenses by category
-* Delete expenses
-* Monthly expense summary
-* GUI version using Java Swing
+* 🔍 Search expenses by category
+* ❌ Delete expenses
+* 📊 Monthly expense summary
+* 🎨 GUI version using Java Swing
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 Sreesharan
